@@ -5,6 +5,8 @@ slap (slack + maps) is a program that integrates the best of slack with the abil
 The system uses redux to manage the state of both the server and the client.
 All communication is by web sockets. 
 State changes are sent by each client to the server. The server updates it's internal state using redux. The server will either send the message to all clients or it will send the updated state (tbd).
+![System Layout](https://github.com/shawnkgriffin/slap/blob/master/docs/slap%20system.png "System Layout")
+## State Description
 Each client manages it's own state using redux and simple middleware. The state consists of the following major components
 * Map
   * Users - location, avatar, name
