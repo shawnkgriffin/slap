@@ -9,17 +9,17 @@ State changes are sent by each client to the server. The server updates it's int
 ## State Description
 Each client manages it's own state using redux and simple middleware. The state consists of the following major components
 * Map
-  * Users - location, avatar, name
-  * Pins - location, description, title, icon and picture.
-  * Circles - location, radius, description, title, icon and picture.
-  * Polygons - array of locations, description, title, icon and picture.
-  * Maps - collection of pins, circles, polygons.
+  * Users - {name, current_location, avatar} 
+  * Pins - {location, description, title, icon, picture}
+  * Circles - {location, radius, description, title, icon, picture}
+  * Polygons - array of locations, description, title, icon, picture}
+  * Layers - {name, [pins], [circles], [polygons]}
 * Users
-  * Name, avatar... 
+  * {Name, avatar} 
 * Chat
-  * Messages - user_id, text, [images], [uris]
-  * channels - channel_id, [messages]
-  * direct messages - user_id1, userid2, [messages]
+  * Messages - {originator, text, [images], [uris]}
+  * channels - {name, channel_id, [messages]}
+  * direct messages - {user_id1, userid2, [messages]}
 
 ## Client 
 - [ ] Android - React Native
@@ -104,23 +104,23 @@ Each client manages it's own state using redux and simple middleware. The state 
  - [ ] User location is tracked and sent by the client to the server. 
  - [ ] All users can see the location of any active user on their map.
  - [ ] When a user moves, the client will dynamically update the location on the map. 
- ## Map
-- [ ] users can see a list of the available maps
-- [ ] users can view a map
-- [ ] a map can contain many pins
+ ### Map
+- [ ] users can see a list of the available layers
+- [ ] users can view a layer
+- [ ] a layer can contain many pins
 - [ ] users can create pins
 - [ ] users can edit pins
 - [ ] each pin can have: a title, description, and image
 - [ ] the icons for pins are customizable
-- [ ] a map can contain many circles
+- [ ] a layer can contain many circles
 - [ ] users can create circles
 - [ ] users can edit circles
-- [ ] a map can contain many polygons (including triangle, rectangle...)
+- [ ] a layer can contain many polygons (including triangle, rectangle...)
 - [ ] users can create polygons
 - [ ] users can edit polygons
 - [ ] users can create maps
 - [ ] users can modify maps (add, edit, remove points)
-- [ ] users can favourite a map
+- [ ] users can favourite a layer
 - [ ] users have profiles, indicating their favourite maps and maps they've contributed to
 - [ ] use http://leafletjs.com/ or https://developers.google.com/maps/
 - [ ] users can toggle maps on/off by a side panel on the display.
