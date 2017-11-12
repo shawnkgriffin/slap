@@ -25,30 +25,30 @@ Each client manages it's own state using redux and simple middleware. The state 
 - [ ] Android - React Native
 - [ ] iOS - React Native
 - [ ] Web - React
-- [ ] Redux - state machine management
+- [ ] Redux - state machine management for all client environments.
 
 ## Server 
 - [ ] Express Server
-- [ ] Redux - state machine management
+- [ ] Redux - state machine management (stretch)
 
 ## Database 
  - [ ] Mongo DB
 
 
 ## Chat Features (Core)
- - [ ] Create open channels
- - [ ] Messages sent on a channel are only visible on that channel. 
- - [ ] Create direct messages (1-1)
- - [ ] Notifications
- - [ ] Chat
- - [ ] User avatar
- - [ ] URL display with link to click
- - [ ] png, jpg, gif display with link to click
- - [ ] emoticons
- - [ ] Real time updates
- - [ ] Search functionality
- - [ ] Tags, keywords & @mentions
- - [ ] User changes in name, avatar or status are immediately reflected in all clients
+- [ ] Create open channels
+- [ ] Messages sent on a channel are only visible on that channel. 
+- [ ] Create direct messages (1-1)
+- [ ] Notifications
+- [ ] Chat
+- [ ] User avatar
+- [ ] URL display with link to click
+- [ ] png, jpg, gif display with link to click
+- [ ] emoticons
+- [ ] Real time updates
+- [ ] Search functionality
+- [ ] Tags, keywords & @mentions
+- [ ] User changes in name, avatar or status are immediately reflected in all clients
 - [ ] Notifications are styled differently from chat messages
 - [ ] Header will display the count of connected users
 - [ ] When the number of connected users changes, this count will be updated for all connected users
