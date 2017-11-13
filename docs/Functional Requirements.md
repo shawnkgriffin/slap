@@ -9,7 +9,7 @@ State changes are sent by each client to the server. The server updates it's int
 ## State Description
 Each client manages it's own state using redux and simple middleware. The state consists of the following major components
 * Map
-  * Users - {name, current_location, avatar} 
+  * Users - [{name, current_location, avatar}]
   * Pins - {location, description, title, icon, picture}
   * Circles - {location, radius, description, title, icon, picture}
   * Polygons - array of locations, description, title, icon, picture}
