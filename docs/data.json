@@ -1,0 +1,138 @@
+
+  /*
+
+{"state": {
+  "channels": [channel],
+  "messages" :[message],
+  "users" :[user],
+  "map": {
+    "pins" : [],
+    "users" : [],
+    "lines" : [],
+    "polygons" :[],
+    "layers" : []
+    },
+  "current_user" : {user}
+  }
+}
+
+Sample state for use as seed below
+*/
+{
+  "state": {
+    "channels": [
+      {
+        "id": "C0G9QF9GW",
+        "name": "random",
+        "is_channel": true,
+        "created": 1449709280,
+        "creator": "U0G9QF9C6",
+        "is_archived": false,
+        "is_general": false,
+        "name_normalized": "random",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_member": true,
+        "is_private": false,
+        "is_mpim": false,
+        "members": ["U0G9QF9C6", "U0G9WFXNZ"],
+        "topic": {
+          "value": "Other stuff",
+          "creator": "U0G9QF9C6",
+          "last_set": 1449709352
+        },
+        "purpose": {
+          "value":
+            "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+          "creator": "",
+          "last_set": 0
+        },
+        "previous_names": [],
+        "num_members": 2
+      },
+      {
+        "id": "C0G9QKBBL",
+        "name": "general",
+        "is_channel": true,
+        "created": 1449709280,
+        "creator": "U0G9QF9C6",
+        "is_archived": false,
+        "is_general": true,
+        "name_normalized": "general",
+        "is_shared": false,
+        "is_org_shared": false,
+        "is_member": true,
+        "is_private": false,
+        "is_mpim": false,
+        "members": ["U0G9QF9C6", "U0G9WFXNZ"],
+        "topic": {
+          "value": "Talk about anything!",
+          "creator": "U0G9QF9C6",
+          "last_set": 1449709364
+        },
+        "purpose": {
+          "value": "To talk about anything!",
+          "creator": "U0G9QF9C6",
+          "last_set": 1449709334
+        },
+        "previous_names": [],
+        "num_members": 2
+      }
+    ],
+    "messages": [
+      {
+        "channel_id": "C0G9QKBBL",
+        "type": "message",
+        "ts": "1358546515.000008",
+        "user": "U2147483896",
+        "text": "Hello"
+      },
+      {
+        "channel_id": "C0G9QKBBL",
+        "type": "message",
+        "ts": "1358546515.000007",
+        "user": "U2147483896",
+        "text": "World",
+        "is_starred": true,
+        "reactions": [
+          {
+            "name": "space_invader",
+            "count": 3,
+            "users": ["U1", "U2", "U3"]
+          },
+          {
+            "name": "sweet_potato",
+            "count": 5,
+            "users": ["U1", "U2", "U3", "U4", "U5"]
+          }
+        ]
+      },
+      {
+        "channel_id": "C0G9QKBBL",
+        "type": "something_else",
+        "ts": "1358546515.000007",
+        "wibblr": true
+      },
+      {
+        "channel_id": "C0G9QKBBL",
+        "text": "Containment unit is 98% full",
+        "username": "ecto1138",
+        "bot_id": "B19LU7CSY",
+        "attachments": [
+          {
+            "text": "Don't get too attached",
+            "id": 1,
+            "fallback": "This is an attachment fallback"
+          }
+        ],
+        "channel_id": "C0G9QKBBL",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1503435956.000247"
+      }
+    ],
+    "users": [],
+    "current_user": {},
+    "map": {}
+  }
+}
