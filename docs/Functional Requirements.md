@@ -36,11 +36,11 @@ Each client manages it's own state using redux and simple middleware. The state 
 
 
 ## Chat Features (Core)
-- [ ] Create open channels
-- [ ] Messages sent on a channel are only visible on that channel. 
-- [ ] Create direct messages (1-1)
+- [ ] Conversation - display, select, read, create, update, delete
+- [ ] Channel - display, select, read, create, update, delete
+- [ ] Conversations - Messages sent on a channel or 1-1 are only visible on that channel. 
+- [ ] Direct messages (1-1) - display, select, read, create, update, delete
 - [ ] Notifications
-- [ ] Chat
 - [ ] User avatar
 - [ ] URL display with link to click
 - [ ] png, jpg, gif display with link to click
@@ -67,7 +67,7 @@ Each client manages it's own state using redux and simple middleware. The state 
  - [ ] Support for private groups and 1:1 direct messaging
  - [ ] Deep, Contextual Search
  - [ ] Always In Sync
- - [ ] API
+ - [ ] Integrate with Slack API
  - [ ] Conferencing
  - [ ] Contextual search
  - [ ] Indexing
