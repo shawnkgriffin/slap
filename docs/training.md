@@ -6,7 +6,7 @@
 
 ## React Native
 * React Native - Custom MapView https://www.youtube.com/watch?v=s23HPMdifvI&list=PLvpYIWY6Br9qrzj9a-YQO_8MzLMBgIz8r&index=1
-* Getting Started with React Navigation https://www.youtube.com/watch?v=C96piR3FRww&list=PLvpYIWY6Br9qrzj9a-YQO_8MzLMBgIz8r&index=7
+* Getting Started with React Navigation https://www.youtube.com/watch?v=C96piR3FRww&list=PLvpYIWY6Br9qrzj9a-YQO_8MzLMBgIz8r&index=7 https://hackernoon.com/getting-started-with-react-navigation-the-navigation-solution-for-react-native-ea3f4bd786a4
 ## Socket.io
 * Getting Started with Socket.IO, Node.js and Express http://www.programwitherik.com/getting-started-with-socket-io-node-js-and-express/
 
