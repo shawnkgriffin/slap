@@ -71,7 +71,7 @@ Each client manages it's own state using redux and simple middleware. The state 
  - [ ] Conferencing
  - [ ] Contextual search
  - [ ] Indexing
- - [ ] @mentions
+ - [ ] '@mentions'
  - [ ] Private text chat
  - [ ] Collaboration tools
  - [ ] Video support
