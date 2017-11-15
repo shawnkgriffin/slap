@@ -221,7 +221,7 @@ app.get('/', (req,res) => {res.sendFile(__dirname + '/index.html')})
 io.sockets.on('connection', socket => {
   connections.push(socket)
   console.log(`Connected: ${connections.length}`)
-  // io.sockets.emit('state', state)
+  io.sockets.emit('state', state)
 
   socket.on('chat.postmessage', message => {
     console.log('chat.postmessage', message)
