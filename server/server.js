@@ -225,7 +225,7 @@ io.sockets.on('connection', socket => {
 
   socket.on('message', data => {
     console.log(`Message ${data}`)
-    // io.sockets.emit('state', state)
+    io.sockets.emit('state', state)
   })
 
   socket.on('disconnect', socket => {
