@@ -1,3 +1,16 @@
+# SlapChat: Scenario
+* Setting: Whistler ski resort
+  * Dispatch for all resort functions
+* Key functions:
+  * Ski Patrol
+  * Maintenance
+  * Ski school
+* Personas:
+  * Dispatcher
+  * Ski patrol staff
+  * Maintenance Staff
+  * Ski School Instructor
+
 # Personae
 ## Dispatcher:
 * Name: Scott, Age:25
