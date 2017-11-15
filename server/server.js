@@ -200,7 +200,7 @@ var state =  {
     "markers": [
       {
         "name": "Rixos The Palm Dubai",
-        "position": [25.1212, 55.1535]
+        "location": [25.1212, 55.1535]
       },
       {
         "name": "Shangri-La Hotel",
@@ -223,8 +223,9 @@ io.sockets.on('connection', socket => {
   console.log(`Connected: ${connections.length}`)
   // io.sockets.emit('state', state)
 
-  socket.on('message', data => {
-    console.log(`Message ${data}`)
+  socket.on('chat.postmessage', message => {
+    console.log('chat.postmessage', message)
+    state.messages.push(message)
     io.sockets.emit('state', state)
   })
 
